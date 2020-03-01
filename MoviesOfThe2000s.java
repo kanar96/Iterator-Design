@@ -24,7 +24,7 @@ public class MoviesOfThe2000s implements MovieIterator{
 		arrayValue++;
 	}
 	
-public MoviesInfo[]getBestMovies(){
+public MovieInfo[]getBestMovies(){
 	return bestMovies
 }
 	public Iterator createIterator() {
