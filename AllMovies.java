@@ -33,7 +33,7 @@ public void showTheMovies() {
 		System.out.println(bestMovies.getCastName());
 		System.out.println(bestMovies.getYearReleased());
 	}
-	
+}
 	public void main(String[] args) {
 
 	MovieInfo[] array2000sMovies = movies2000s.getBestMovies();
@@ -60,6 +60,7 @@ public void showTheMovies() {
 		System.out.println(bestMovies.getMovieName());
 		System.out.println(bestMovies.getCastName());
 		System.out.println(bestMovies.getYearReleased());
+	}
 	}
 	
 	public void showTheMovies2() {
