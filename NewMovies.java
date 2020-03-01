@@ -21,7 +21,9 @@ public class NewMovies implements MovieIterator{
 		bestMovies.put(hashKey, movieInfo);
 		hashKey++;
 	}
-	
+	public ArrayList<MovieInfo> getBestMovies() {
+		return bestMovies;
+		}
 	
 	
 	public Iterator createIterator() {
